@@ -15,5 +15,6 @@ public class Abdirashid {
     public static void main(String[] args) {
         secondSon wish1 = new secondSon();
         wish1.displayActions();
+        wish1.displayActions();
     }
 }
