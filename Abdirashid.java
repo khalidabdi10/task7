@@ -1,6 +1,6 @@
 class firstSon {
     final void displayActions() {
-        System.out.println("He cry ");
+        System.out.println("He cry");
     }
 }
 
