@@ -1,0 +1,19 @@
+class firstSon {
+    final void displayActions() {
+        System.out.println("He crys ");
+    }
+}
+
+class secondSon extends firstSon {
+    void display() {
+        super.displayActions();
+        System.out.println("He never crys");
+    }
+}
+
+public class Abdirashid {
+    public static void main(String[] args) {
+        secondSon wish1 = new secondSon();
+        wish1.displayActions();
+    }
+}
