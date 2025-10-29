@@ -7,7 +7,7 @@ class firstSon {
 class secondSon extends firstSon {
     void display() {
         super.displayActions();
-        System.out.println("He never cry");
+        System.out.println("He never cryss");
     }
 }
 
